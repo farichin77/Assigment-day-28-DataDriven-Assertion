@@ -13,8 +13,13 @@ Website untuk pengujian:
 https://www.saucedemo.com/
 
 ---
+## 1. Cara Menjalankan Test
 
-## 1. Fitur Pengujian
+### ▶ Via IntelliJ (GUI)
+- Klik kanan `testng.xml`
+- Pilih **Run 'testng.xml'
+
+## 2. Fitur Pengujian
 
 ### ✔ Login Test (Data Driven)
 - Test berbagai kombinasi username & password
@@ -28,7 +33,7 @@ https://www.saucedemo.com/
 - Validasi checkout success
 
 ---
-## 2. Test Data (Excel)
+## 3. Test Data (Excel)
 File berada di:
 src/test/resources/Data/LoginData.xlsx
 src/test/resources/Data/test_data.xlsx
@@ -39,7 +44,7 @@ Sheet:
 
 Excel dibaca menggunakan Apache POI.
 
-## 3. Teknologi yang Digunakan
+## 4. Teknologi yang Digunakan
 - Java 17
 - Selenium WebDriver 4
 - TestNG
@@ -47,7 +52,7 @@ Excel dibaca menggunakan Apache POI.
 - Apache POI
 - Log4j2
 - ChromeOptions (Incognito Mode)
-## 4. Tujuan Project
+## 5. Tujuan Project
 Project ini dibuat sebagai portfolio untuk:
 - Data driven testing
 - Assertions & validation
@@ -57,9 +62,6 @@ Project ini dibuat sebagai portfolio untuk:
 
 ---
 
-## 5. Catatan
+## 6. Catatan
 Browser Chrome dijalankan dalam *Incognito Mode* untuk menghindari popup Chrome seperti *“Change Password?”* yang dapat menyebabkan test gagal.
 
-## 6. Test Suite
-Test suite menggunakan file:
-DDT + ASSERTION (konfigurasi ini sudah mengandung data driven testing serta Assertion dan validation)
