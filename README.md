@@ -16,8 +16,11 @@ https://www.saucedemo.com/
 ## 1. Cara Menjalankan Test
 
 ### ▶ Via IntelliJ (GUI)
-- Klik kanan `testng.xml`
-- Pilih **Run 'testng.xml'
+- Klik kanan `test-regression.xml`
+- Pilih **Run 'test-regression.xml'
+  
+ atau bisa run di terminal seperti ini :
+./gradlew clean test "-Psuite=test-regression.xml" 
 
 ## 2. Fitur Pengujian
 
